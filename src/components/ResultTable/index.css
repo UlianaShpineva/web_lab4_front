@@ -1,0 +1,169 @@
+@media screen and (min-width: 1191px) {
+    .resultTable {
+        margin-top: 20px;
+        color: darkslategrey;
+        font-family: cursive;
+        border: #dfd3e3 2px solid;
+        border-radius: 8px;
+        font-size: 20px;
+        background-color: #fffff4;
+        /*width: 1000px;*/
+        width: 70vw;
+        position: relative;
+        /*left: 250px;*/
+        left: 15vw;
+        border-collapse: separate;
+        vertical-align: center;
+        /*top: 100px;*/
+    }
+
+    .p-datatable-thead, th {
+        border: #dfd3e3 2px solid;
+        border-collapse: separate;
+        text-align: center;
+        border-spacing: 20px;
+        /*margin: 100px;*/
+        /*border-radius: 8px;*/
+        background-color: #dfd3e3;
+    }
+
+    tr.p-sortable-column {
+        border: #dfd3e3 2px solid;
+        /*border-collapse: collapse;*/
+        text-align: center;
+        border-collapse: separate;
+        border-spacing: 20px;
+        margin: 10px;
+        border-radius: 8px;
+    }
+
+    .p-column-header-content {
+        margin: 0 1px 0 35px;
+        width: fit-content;
+    }
+
+    td, tr, th {
+        text-align: center;
+        vertical-align: center;
+    }
+
+    span > svg.p-icon {
+        position: relative;
+        color: darkslategray;
+        left: 50px;
+        top: 0;
+    }
+
+}
+
+@media screen and (max-width: 1191px) and (min-width: 810px){
+    .resultTable {
+        margin-top: 20px;
+        color: darkslategrey;
+        font-family: cursive;
+        border: #dfd3e3 2px solid;
+        border-radius: 8px;
+        font-size: 20px;
+        background-color: #fffff4;
+        /*width: 1000px;*/
+        width: 82vw;
+        position: relative;
+        left: 9vw;
+        border-collapse: separate;
+        vertical-align: center;
+        /*top: 100px;*/
+    }
+
+    .p-datatable-thead, th {
+        border: #dfd3e3 2px solid;
+        border-collapse: separate;
+        text-align: center;
+        border-spacing: 20px;
+        /*margin: 100px;*/
+        /*border-radius: 8px;*/
+        background-color: #dfd3e3;
+    }
+
+    tr.p-sortable-column {
+        border: #dfd3e3 2px solid;
+        /*border-collapse: collapse;*/
+        text-align: center;
+        border-collapse: separate;
+        border-spacing: 20px;
+        margin: 10px;
+        border-radius: 8px;
+    }
+
+    .p-column-header-content {
+        margin: 0 1px 0 2vw;
+        width: fit-content;
+    }
+
+    td, tr, th {
+        text-align: center;
+        vertical-align: center;
+    }
+
+    span > svg.p-icon {
+        position: relative;
+        color: darkslategray;
+        left: 1.5vw;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .resultTable {
+        margin-top: 20px;
+        color: darkslategrey;
+        font-family: cursive;
+        border: #dfd3e3 2px solid;
+        border-radius: 8px;
+        font-size: 20px;
+        background-color: #fffff4;
+        /*width: 1000px;*/
+        width: 82vw;
+        position: relative;
+        left: 9vw;
+        border-collapse: separate;
+        vertical-align: center;
+        /*top: 100px;*/
+    }
+
+    .p-datatable-thead, th {
+        border: #dfd3e3 2px solid;
+        border-collapse: separate;
+        text-align: center;
+        border-spacing: 20px;
+        /*margin: 100px;*/
+        /*border-radius: 8px;*/
+        background-color: #dfd3e3;
+    }
+
+    tr.p-sortable-column {
+        border: #dfd3e3 2px solid;
+        /*border-collapse: collapse;*/
+        text-align: center;
+        border-collapse: separate;
+        border-spacing: 20px;
+        margin: 10px;
+        border-radius: 8px;
+    }
+
+    .p-column-header-content {
+        margin: 0 1px 0 2vw;
+        width: fit-content;
+    }
+
+    td, tr, th {
+        text-align: center;
+        vertical-align: center;
+    }
+
+    span > svg.p-icon {
+        position: relative;
+        color: darkslategray;
+        left: 1.5vw;
+        top: 0;
+    }
+}

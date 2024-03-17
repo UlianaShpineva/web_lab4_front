@@ -1,0 +1,47 @@
+@media screen and (min-width: 1191px) {
+    .logOutBtn {
+        position: relative;
+        /*left: 100px;*/
+        /*left: 5vw;*/
+        right: 10px;
+        width: 100px !important;
+        height: 40px !important;
+        background-color: #dfd3e3 !important;
+    }
+
+    .logOutBtn:hover {
+        background-color: #c6aec7 !important;
+    }
+}
+
+@media screen and (max-width: 1191px) and (min-width: 810px){
+    .logOutBtn {
+        position: relative;
+        /*left: 100px;*/
+        /*left: 5vw;*/
+        right: 10px;
+        width: fit-content !important;
+        height: fit-content !important;
+        background-color: #dfd3e3 !important;
+    }
+
+    .logOutBtn:hover {
+        background-color: #c6aec7 !important;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .logOutBtn {
+        position: relative;
+        /*left: 100px;*/
+        left: 15vw;
+        /*right: 10px;*/
+        width: fit-content !important;
+        height: fit-content !important;
+        background-color: #dfd3e3 !important;
+    }
+
+    .logOutBtn:hover {
+        background-color: #c6aec7 !important;
+    }
+}

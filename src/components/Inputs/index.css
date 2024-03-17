@@ -1,0 +1,295 @@
+@media screen and (min-width: 1191px) {
+    .inpts {
+        /*border: #dfd3e3 2px solid;*/
+        /*border-radius: 8px;*/
+        font-size: 20px;
+        /*background-color: #fffff4;*/
+        color: darkslategrey;
+        font-family: cursive;
+        /*width: 513px;*/
+        height: 400px;
+        width: 30vw;
+        /*margin-top: 40px;*/
+        margin-top: 10px;
+        /*margin-left: 290px;*/
+        margin-left: 17vw;
+        padding: 10px;
+    }
+
+    .p-slider {
+        height: 10px;
+        /*22px*/
+        /*position: absolute;*/
+        background-color: #fffff4;
+        /*width: calc(100vw);*/
+        width: 250px;
+        border-radius: 10px;
+        border: 2px solid #c6aec7;
+    }
+
+    .p-slider-range {
+        height: 7px;
+        position: absolute;
+        background-color: #dfd3e3;
+        /*width: 280px;*/
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .p-slider-handle, .p-slider-handle-active {
+        position: absolute;
+        top: -6px;
+        left: -6px;
+        right: 200px;
+        width: 20px;
+        height: 20px;
+        /*height:   1.143rem;*/
+        background: #fff;
+        border: 2px solid #c6aec7;
+        /*transition: background-color .2s,color .2s,border-color .2s,box-shadow .2s,opacity .2s;*/
+        border-radius: 50%;
+        /*margin-right: 11px;*/
+        /*margin-bottom: 11px;*/
+        /*position: relative;*/
+        /*top: 0;*/
+        /*left: -11px;*/
+        /*bottom: 5px;*/
+    }
+
+    .p-slider-handle:hover {
+        background-color: #c6aec7;
+        border: 2px solid #c6aec7;
+    }
+
+    .p-button {
+        background-color: #fffff4;
+        border-radius: 8px;
+        border: #dfd3e3 2px solid;
+        text-align: center;
+        /*padding: 0.2em;*/
+        width: 40px;
+        height: auto;
+        font-size: 20px;
+        color: darkslategrey;
+        font-family: cursive;
+        margin: 2px;
+    }
+
+    .p-button:hover {
+        background-color: #c6aec7;
+    }
+
+    .btnsX, .btnsR {
+        margin-top: 40px;
+    }
+
+    .p-highlight {
+        background-color: #dfd3e3;
+    }
+
+    .submitBtn {
+        margin-top: 40px;
+        margin-right: 10px;
+        font-size: 20px;
+        height: 40px;
+        background-color: #dfd3e3;
+        width: 90px;
+    }
+
+}
+
+@media screen and (max-width: 1191px) and (min-width: 810px){
+    .inpts {
+        /*border: #dfd3e3 2px solid;*/
+        /*border-radius: 8px;*/
+        font-size: 20px;
+        /*background-color: #fffff4;*/
+        color: darkslategrey;
+        font-family: cursive;
+        width: 56vw;
+
+        height: 400px;
+        margin-top: 1vh;
+        margin-left: 10vw;
+        padding: 10px;
+    }
+
+    .p-slider {
+        height: 10px;
+        /*22px*/
+        /*position: absolute;*/
+        background-color: #fffff4;
+        /*width: calc(100vw);*/
+        /*width: 250px;*/
+        width: 20vw;
+        border-radius: 10px;
+        border: 2px solid #c6aec7;
+    }
+
+    .p-slider-range {
+        height: 7px;
+        position: absolute;
+        background-color: #dfd3e3;
+        /*width: 280px;*/
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .p-slider-handle {
+        position: relative;
+        top: -6px;
+        left: -12px;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        /*height:   1.143rem;*/
+        background: #fff;
+        border: 2px solid #c6aec7;
+        /*transition: background-color .2s,color .2s,border-color .2s,box-shadow .2s,opacity .2s;*/
+        border-radius: 50%;
+        /*margin-right: 11px;*/
+        /*margin-bottom: 11px;*/
+        /*position: relative;*/
+        /*top: 0;*/
+        /*left: -11px;*/
+        /*bottom: 5px;*/
+    }
+
+    .p-slider-handle:hover {
+        background-color: #c6aec7;
+        border: 2px solid #c6aec7;
+    }
+
+    .p-button {
+        background-color: #fffff4;
+        border-radius: 8px;
+        border: #dfd3e3 2px solid;
+        text-align: center;
+        /*padding: 0.2em;*/
+        width: 40px;
+        height: auto;
+        font-size: 20px;
+        color: darkslategrey;
+        font-family: cursive;
+        margin: 2px;
+    }
+
+    .p-button:hover {
+        background-color: #c6aec7;
+    }
+
+    .btnsX, .btnsR {
+        margin-top: 40px;
+    }
+
+    .p-highlight {
+        background-color: #dfd3e3;
+    }
+
+    .submitBtn {
+        margin-top: 40px;
+        margin-right: 10px;
+        font-size: 20px;
+        height: 40px;
+        background-color: #dfd3e3;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .inpts {
+        /*border: #dfd3e3 2px solid;*/
+        /*border-radius: 8px;*/
+        font-size: 20px;
+        /*background-color: #fffff4;*/
+        color: darkslategrey;
+        font-family: cursive;
+        /*width: 70vw;*/
+        width: 400px;
+        height: 400px;
+        margin-top: 1vh;
+        margin-left: calc(50vw - 200px);
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    .p-slider {
+        height: 10px;
+        /*22px*/
+        /*position: absolute;*/
+        background-color: #fffff4;
+        /*width: calc(100vw);*/
+        /*width: 250px;*/
+        width: 40vw;
+        border-radius: 10px;
+        border: 2px solid #c6aec7;
+    }
+
+    .p-slider-range {
+        height: 7px;
+        position: absolute;
+        background-color: #dfd3e3;
+        /*width: 280px;*/
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .p-slider-handle {
+        position: relative;
+        top: -6px;
+        left: -12px;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        /*height:   1.143rem;*/
+        background: #fff;
+        border: 2px solid #c6aec7;
+        border-radius: 50%;
+        /*margin-right: 11px;*/
+        /*margin-bottom: 11px;*/
+        /*position: relative;*/
+        /*top: 0;*/
+        /*left: -11px;*/
+        /*bottom: 5px;*/
+    }
+
+    .p-slider-handle:hover {
+        background-color: #c6aec7;
+        border: 2px solid #c6aec7;
+    }
+
+    .p-button {
+        background-color: #fffff4;
+        border-radius: 8px;
+        border: #dfd3e3 2px solid;
+        text-align: center;
+        /*padding: 0.2em;*/
+        width: 40px;
+        height: auto;
+        font-size: 20px;
+        color: darkslategrey;
+        font-family: cursive;
+        margin: 2px;
+    }
+
+    .p-button:hover {
+        background-color: #c6aec7;
+    }
+
+    .btnsX, .btnsR {
+        margin-top: 40px;
+    }
+
+    .p-highlight {
+        background-color: #dfd3e3;
+    }
+
+    .submitBtn {
+        margin-top: 40px;
+        margin-right: 10px;
+        font-size: 20px;
+        height: 40px;
+        background-color: #dfd3e3;
+        width: 90px;
+    }
+}
